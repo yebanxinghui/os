@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/gongxiang/keshe3.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /mnt/hgfs/gongxiang/keshe3.ko /mnt/hgfs/gongxiang/keshe3.o /mnt/hgfs/gongxiang/keshe3.mod.o ;  true
